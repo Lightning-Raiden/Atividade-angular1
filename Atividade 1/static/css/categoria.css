@@ -101,7 +101,73 @@ h1 {
     font-size: 2.5em;
 }
 
-.featured-img {
+.categorias h2 {
+    margin-bottom: 3.5vh;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.categorias img {
+    border-radius: 10px;
+    width: 18%;
+    height: 18%;
+}
+
+.categorias a {
+    border-radius: 10px;
+    padding: 1rem;
+    color: #fff;
+    background-color: rgb(84, 202, 84);
+}
+
+.categorias a:hover {
+    cursor: pointer;
+    background-color: rgb(120, 216, 120);
+}
+
+.acao {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.suspense {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.terror {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.drama {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ficcao {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
     margin-bottom: 3.5rem;
@@ -110,32 +176,6 @@ h1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.featured h2 {
-    color: #fff;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-.featured a {
-    margin-left: 34vw;
-    border-radius: 10px;
-    padding: 1.5rem;
-    color: #fff;
-    background-color: rgb(84, 202, 84);
-}
-
-.featured a:hover {
-    cursor: pointer;
-    background-color: rgb(120, 216, 120);
-}
-
-.wick, .galax, .aranha {
-    border-radius: 10px;
-    width: 18%;
-    height: 18%;
 }
 
 
@@ -147,7 +187,7 @@ footer {
     padding-bottom: 2.5vh;
     padding-left: 45vw;
     padding-right: 45vw;
-    margin-top: 20vh;
+    margin-top: 20.9vh;
     display: inline-block;
     background-color: rgb(153, 14, 37);
 }

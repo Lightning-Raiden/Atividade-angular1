@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url('../img/filmes-background.jpg');
+    background-image: url('../img/background/filmes-background.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,7 +30,7 @@ nav .navbar {
     display: flex;
     text-align: end;
     justify-content: end;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(153, 14, 37);
     padding: 1.3rem;
 }
 
@@ -54,7 +54,7 @@ nav .navbar {
 }
 
 .navbar li:hover {
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(20, 20, 20);
     cursor: pointer;
 }
 
@@ -72,8 +72,8 @@ nav .navbar {
 
 section {
     border-radius: 25px;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     width: 80%;
     background-color: rgb(20, 20, 20);
     margin-top: 10vh;
@@ -109,13 +109,12 @@ footer {
     padding-bottom: 2.5vh;
     padding-left: 45vw;
     padding-right: 45vw;
-    margin-top: 41.3vh;
+    margin-top: 31.3vh;
     display: inline-block;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(153, 14, 37);
 }
 
 .footer-content {
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
